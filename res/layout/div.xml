@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sizebj" >
+
+    <ImageButton
+        android:id="@id/imageButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_000" />
+
+    <ImageButton
+        android:id="@id/imageButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_002" />
+
+    <ImageButton
+        android:id="@id/imageButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_004" />
+
+    <ImageButton
+        android:id="@id/imageButton4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_006" />
+
+    <ImageButton
+        android:id="@id/imageButton5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_008"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@id/imageButton6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_010" />
+
+    <ImageButton
+        android:id="@id/imageButton7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_012" />
+
+    <ImageButton
+        android:id="@id/imageButton8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_014" />
+
+    <ImageButton
+        android:id="@id/imageButton9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_016" />
+
+    <ImageButton
+        android:id="@id/imageButton10"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_018" />
+
+    <ImageButton
+        android:id="@id/imageButton11"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/sizesp_020" />
+
+    <ImageButton
+        android:id="@id/imageButton12"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_022" />
+
+    <ImageButton
+        android:id="@id/imageButton13"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_024" />
+
+    <ImageButton
+        android:id="@id/imageButton14"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_026" />
+
+    <ImageButton
+        android:id="@id/imageButton15"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_028" />
+
+    <ImageButton
+        android:id="@id/imageButton16"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_030" />
+
+    <ImageButton
+        android:id="@id/imageButton17"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_032" />
+
+    <ImageButton
+        android:id="@id/imageButton18"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizesp_034" />
+
+    <ImageButton
+        android:id="@id/DivSignLong"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sizediv001" />
+
+    <TextView
+        android:id="@id/QuotientId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="#ff000000"
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@id/DividendId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="#ff000000"
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@id/DivsorId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="#ff000000"
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@id/RemainderId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="#ff000000"
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@id/DivEasyLine1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sizelin1000" />
+
+    <TextView
+        android:id="@id/RemainderId1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="#ff000000"
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageButton
+        android:id="@id/imageButtonexit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000" />
+
+
+</RelativeLayout>
